@@ -79,7 +79,7 @@ class App extends React.Component<{}, mystate >{
                 <Row>
                   <Col>
                     <Form.Item >
-                    <Input placeholder = "Add item" style={{ width: 300 }}
+                    <Input placeholder = "Add item" style={{ width: 250 }}
                     value = {this.state.currentItem.text}
                     onChange={this.handleInput}></Input>
                     </Form.Item>

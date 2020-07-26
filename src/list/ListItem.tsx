@@ -14,7 +14,7 @@ function ListItem(props:any){
         wrapperCol: { span: 24 }
       };
     const listItems = items.map((item: { key: string ; text: React.ReactNode; } ) =>
-        {return <div className ="bg-blue-500 p-1" key ={item.key}>
+        { return <div className ="bg-blue-500 p-1" key ={item.key}>
             <Row>
                 <Col span={16}>
                     <h3><Checkbox onChange={onChange}>
